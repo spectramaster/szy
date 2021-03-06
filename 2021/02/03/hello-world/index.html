@@ -704,6 +704,33 @@
     </div>
 
     
+        <link rel="stylesheet" href="/szy/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/szy/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/szy/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'b0b05d83ad5aae558130',
+        clientSecret: 'd391f5543dce38c1684a781569ac99fa954a4df0',
+        repo: 'https://spectramaster.github.io/szy',
+        owner: 'spectramaster',
+        admin: "spectramaster",
+        id: '2021-02-03T21-57-49',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
