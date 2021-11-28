@@ -1,0 +1,2 @@
+# szy
+my blog
